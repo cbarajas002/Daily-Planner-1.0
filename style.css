@@ -57,15 +57,28 @@ body {
     color: white;
   }
   
-  .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06aed5;
-    color: white;
+  .input-group button {
+    background-color:white;
   }
   
-  .saveBtn i:hover {
-    font-size: 20px;
+  .input-group button:hover {
+    font-size: 30px;
+    background-color: black;
     transition: all 0.3s ease-in-out;
   }
+
+  
+
+  .form-control {
+    border: 2px solid black;
+    padding: 5%;
+    font-size: 20px;
+    background-color:navajowhite;
+    cursor: pointer;
+  }
+
+  .input-group-prepend {
+    border: 2px solid black;
+  }
+
+  
