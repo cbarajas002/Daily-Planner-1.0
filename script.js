@@ -1,4 +1,14 @@
 const timeDisplayEl = $('#time-display');
+const formControlTextEl = $('#form-control-text')
+const formControlText1El = $('#form-control-text1')
+const formControlTextEl = $('#form-control-text')
+const formControlTextEl = $('#form-control-text')
+const formControlTextEl = $('#form-control-text')
+const formControlTextEl = $('#form-control-text')
+const formControlTextEl = $('#form-control-text')
+const formControlTextEl = $('#form-control-text')
+const formControlTextEl = $('#form-control-text')
+
 
 
 
