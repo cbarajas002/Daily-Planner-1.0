@@ -74,8 +74,12 @@ body {
     border: 2px solid black;
     padding: 5%;
     font-size: 20px;
-    background-color:navajowhite;
+    background-color: cornflowerblue;
     cursor: pointer;
+    color: black;
+  }
+  .form-control:hover {
+    background-color: darkblue;
   }
 
   .input-group-prepend {
@@ -89,6 +93,7 @@ body {
 
   .input-group-text:hover {
     background-color: black;
+    cursor: pointer;
   }
   
 
