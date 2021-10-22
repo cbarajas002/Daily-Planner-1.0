@@ -1,20 +1,23 @@
 const timeDisplayEl = $('#time-display');
-const formControlTextEl = $('#form-control-text')
-const formControlText1El = $('#form-control-text1')
-const formControlTextEl = $('#form-control-text')
-const formControlTextEl = $('#form-control-text')
-const formControlTextEl = $('#form-control-text')
-const formControlTextEl = $('#form-control-text')
-const formControlTextEl = $('#form-control-text')
-const formControlTextEl = $('#form-control-text')
-const formControlTextEl = $('#form-control-text')
+const formControlTextEl = $('#form-control-text');
+const SaveBtnEl = $('#btn');
+
 
 
 
 
 function displayTime() {
-    const rightNow = moment().format("MMM DD, YYYY [at] hh:mm:ss a");
+    const rightNow = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
     timeDisplayEl.text(rightNow);
+}
+
+function displayText() {
+    formControlTextEl = $('#form-control-text')
+    formControlTextEl.text();
+}
+
+function handleSaveBtn() {
+    
 }
 
 
