@@ -1,6 +1,5 @@
 const timeDisplayEl = $('#time-display');
-const formControlTextEl = $('#form-control-text');
-const SaveBtnEl = $('#btn');
+
 
 
 
@@ -9,33 +8,24 @@ const SaveBtnEl = $('#btn');
 function displayTime() {
     const rightNow = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
     timeDisplayEl.text(rightNow);
-}
+};
 
-function displayText() {
-    formControlTextEl = $('#form-control-text')
-    formControlTextEl.text();
-}
+$(document).ready(function() {
+    $('#btn').on("click", function (){
+        const text = $('.form-control').val();
+        const time = $(this).parent().attr('id');
 
-function handleSaveBtn() {
-    
-}
+        console.log(text);
 
+    })
 
+    function timeTracker() {
+        const timeNow = moment().hour();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        $('.form-control').each(function (){
+            const
+        })
+    }
+});
 
 setInterval(displayTime, 1000);

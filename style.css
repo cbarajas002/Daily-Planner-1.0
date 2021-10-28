@@ -79,7 +79,7 @@ body {
     color: black;
   }
   .form-control:hover {
-    background-color: darkblue;
+    background-color: white;
   }
 
   .input-group-prepend {
